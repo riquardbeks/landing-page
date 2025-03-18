@@ -137,6 +137,9 @@ li {
     justify-content: center;
     width: 500px;
 }
+.content4 p {
+    font-style: italic;
+}
 
 
 
