@@ -166,15 +166,18 @@ li {
     /* border: 2px solid orangered; */
     color:#f9faf8;
     align-items: center;
-    flex-basis: 500px;
-    
+    flex-basis: 400px;
+}
+
+.cta-content > *{
+    margin: 1px;
+    padding: 1px;
 }
 
 .sign-up-button-bottom {
     /* border: 2px solid orangered; */
     background-color:#3882f6;
     border-color:#f9faf8;
-    border-style: double; 
     color:#f9faf8;
     font-weight: 500;
     height: 30px;
@@ -183,4 +186,26 @@ li {
     text-align: center;
     font-size: 16px;
     text-decoration: none;
+    transition: 0.5s;
+}
+
+.sign-up-button-bottom:hover {
+    background-color: #f9faf8;
+    color: #1f2937;
+}
+
+.footer {
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    font-weight: bold;
 }
