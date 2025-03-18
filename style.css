@@ -146,16 +146,17 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 100px;
 }
 
 .blue-box {
     background-color:#3882f6;
     border: 5px solid #1f29371e;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 15px;
     border-radius: 50px;
     gap: 5rem;
     box-shadow:20px 15px 20px 1px  #1f2937;
