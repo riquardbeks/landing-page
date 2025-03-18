@@ -141,5 +141,45 @@ li {
     font-style: italic;
 }
 
+.cta-container {
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
 
+.blue-box {
+    background-color:#3882f6;
+    border: 5px solid #1f29371e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50px;
+    gap: 5rem;
+    box-shadow:20px 15px 20px 1px  #1f2937;
+}
 
+.cta-content {
+    /* border: 2px solid orangered; */
+    color:#f9faf8;
+    align-items: center;
+    flex-basis: 500px;
+    
+}
+
+.sign-up-button-bottom {
+    /* border: 2px solid orangered; */
+    background-color:#3882f6;
+    border-color:#f9faf8;
+    border-style: double; 
+    color:#f9faf8;
+    font-weight: 500;
+    height: 30px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}
